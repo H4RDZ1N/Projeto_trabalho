@@ -1,0 +1,2279 @@
+zabbix_export:
+  hosts:
+  - host: _gateway (192.168.90.1)
+    ip: _gateway (192.168.90.1)
+    ports:
+    - port: 53
+      service: domain
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.2
+    ip: 192.168.90.2
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 111
+      service: rpcbind
+      state: open
+    - port: 3128
+      service: squid-http
+      state: open
+  - host: 192.168.90.5
+    ip: 192.168.90.5
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 111
+      service: rpcbind
+      state: open
+    - port: 3128
+      service: squid-http
+      state: open
+  - host: 192.168.90.10
+    ip: 192.168.90.10
+    ports:
+    - port: 53
+      service: domain
+      state: open
+    - port: 88
+      service: kerberos-sec
+      state: open
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 389
+      service: ldap
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 464
+      service: kpasswd5
+      state: open
+    - port: 593
+      service: http-rpc-epmap
+      state: open
+    - port: 636
+      service: ldapssl
+      state: open
+    - port: 3268
+      service: globalcatLDAP
+      state: open
+    - port: 3269
+      service: globalcatLDAPssl
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.12
+    ip: 192.168.90.12
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 111
+      service: rpcbind
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 199
+      service: smux
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 873
+      service: rsync
+      state: open
+    - port: 2049
+      service: nfs
+      state: open
+    - port: 5357
+      service: wsdapi
+      state: open
+    - port: 6000
+      service: X11
+      state: open
+  - host: 192.168.90.13
+    ip: 192.168.90.13
+    ports:
+    - port: 21
+      service: ftp
+      state: open
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 111
+      service: rpcbind
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 199
+      service: smux
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 873
+      service: rsync
+      state: open
+    - port: 2049
+      service: nfs
+      state: open
+    - port: 5357
+      service: wsdapi
+      state: open
+    - port: 6000
+      service: X11
+      state: open
+  - host: 192.168.90.14
+    ip: 192.168.90.14
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 111
+      service: rpcbind
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 199
+      service: smux
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 2049
+      service: nfs
+      state: open
+    - port: 5357
+      service: wsdapi
+      state: open
+    - port: 6000
+      service: X11
+      state: open
+  - host: 192.168.90.15
+    ip: 192.168.90.15
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 3000
+      service: ppp
+      state: open
+  - host: 192.168.90.19
+    ip: 192.168.90.19
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+    - port: 9010
+      service: sdr
+      state: open
+  - host: 192.168.90.20
+    ip: 192.168.90.20
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 53
+      service: domain
+      state: open
+    - port: 80
+      service: http
+      state: open
+  - host: 192.168.90.23
+    ip: 192.168.90.23
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 3000
+      service: ppp
+      state: open
+    - port: 3001
+      service: nessus
+      state: open
+    - port: 5357
+      service: wsdapi
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.24
+    ip: 192.168.90.24
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 3389
+      service: ms-wbt-server
+      state: open
+    - port: 5432
+      service: postgresql
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+    - port: 49152
+      service: unknown
+      state: open
+    - port: 49153
+      service: unknown
+      state: open
+    - port: 49154
+      service: unknown
+      state: open
+    - port: 49155
+      service: unknown
+      state: open
+  - host: 192.168.90.26
+    ip: 192.168.90.26
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 3389
+      service: ms-wbt-server
+      state: open
+    - port: 5432
+      service: postgresql
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+    - port: 49153
+      service: unknown
+      state: open
+    - port: 49154
+      service: unknown
+      state: open
+  - host: 192.168.90.35
+    ip: 192.168.90.35
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 3000
+      service: ppp
+      state: open
+    - port: 3389
+      service: ms-wbt-server
+      state: open
+    - port: 5432
+      service: postgresql
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+    - port: 8181
+      service: intermapper
+      state: open
+    - port: 49152
+      service: unknown
+      state: open
+    - port: 49153
+      service: unknown
+      state: open
+    - port: 49154
+      service: unknown
+      state: open
+    - port: 49155
+      service: unknown
+      state: open
+    - port: 49157
+      service: unknown
+      state: open
+  - host: 192.168.90.36
+    ip: 192.168.90.36
+    ports:
+    - port: 21
+      service: ftp
+      state: open
+    - port: 23
+      service: telnet
+      state: open
+    - port: 25
+      service: smtp
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 515
+      service: printer
+      state: open
+    - port: 631
+      service: ipp
+      state: open
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.90.39
+    ip: 192.168.90.39
+    ports:
+    - port: 3389
+      service: ms-wbt-server
+      state: open
+    - port: 4848
+      service: appserv-http
+      state: open
+    - port: 7676
+      service: imqbrokerd
+      state: open
+    - port: 8181
+      service: intermapper
+      state: open
+    - port: 9001
+      service: tor-orport
+      state: open
+  - host: 192.168.90.40
+    ip: 192.168.90.40
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+  - host: 192.168.90.41
+    ip: 192.168.90.41
+    ports:
+    - port: 21
+      service: ftp
+      state: open
+    - port: 23
+      service: telnet
+      state: open
+    - port: 25
+      service: smtp
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 515
+      service: printer
+      state: open
+    - port: 631
+      service: ipp
+      state: open
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.90.42
+    ip: 192.168.90.42
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 515
+      service: printer
+      state: open
+    - port: 631
+      service: ipp
+      state: open
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.90.50
+    ip: 192.168.90.50
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.52
+    ip: 192.168.90.52
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.53
+    ip: 192.168.90.53
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8088
+      service: radan-http
+      state: open
+  - host: 192.168.90.54
+    ip: 192.168.90.54
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.55
+    ip: 192.168.90.55
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.56
+    ip: 192.168.90.56
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.57
+    ip: 192.168.90.57
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.58
+    ip: 192.168.90.58
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.59
+    ip: 192.168.90.59
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.60
+    ip: 192.168.90.60
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+    - port: 49153
+      service: unknown
+      state: open
+  - host: 192.168.90.61
+    ip: 192.168.90.61
+    ports:
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 9898
+      service: monkeycom
+      state: open
+  - host: 192.168.90.62
+    ip: 192.168.90.62
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8899
+      service: ospf-lite
+      state: open
+  - host: 192.168.90.63
+    ip: 192.168.90.63
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.64
+    ip: 192.168.90.64
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+    - port: 9010
+      service: sdr
+      state: open
+  - host: 192.168.90.65
+    ip: 192.168.90.65
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.66
+    ip: 192.168.90.66
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.67
+    ip: 192.168.90.67
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.68
+    ip: 192.168.90.68
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.69
+    ip: 192.168.90.69
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+  - host: 192.168.90.76
+    ip: 192.168.90.76
+    ports: []
+  - host: 192.168.90.78
+    ip: 192.168.90.78
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.81
+    ip: 192.168.90.81
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.82
+    ip: 192.168.90.82
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.83
+    ip: 192.168.90.83
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 6000
+      service: X11
+      state: open
+    - port: 6001
+      service: X11:1
+      state: open
+    - port: 6002
+      service: X11:2
+      state: open
+    - port: 6003
+      service: X11:3
+      state: open
+    - port: 6004
+      service: X11:4
+      state: open
+    - port: 6005
+      service: X11:5
+      state: open
+    - port: 6006
+      service: X11:6
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+    - port: 8080
+      service: http-proxy
+      state: open
+    - port: 8090
+      service: opsmessaging
+      state: open
+  - host: 192.168.90.90
+    ip: 192.168.90.90
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+  - host: 192.168.90.91
+    ip: 192.168.90.91
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.92
+    ip: 192.168.90.92
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.90.111
+    ip: 192.168.90.111
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5357
+      service: wsdapi
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.117
+    ip: 192.168.90.117
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.119
+    ip: 192.168.90.119
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.121
+    ip: 192.168.90.121
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.124
+    ip: 192.168.90.124
+    ports:
+    - port: 80
+      service: http
+      state: open
+  - host: 192.168.90.128
+    ip: 192.168.90.128
+    ports:
+    - port: 49152
+      service: unknown
+      state: open
+    - port: 62078
+      service: iphone-sync
+      state: open
+  - host: 192.168.90.133
+    ip: 192.168.90.133
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.134
+    ip: 192.168.90.134
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.139
+    ip: 192.168.90.139
+    ports:
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.90.141
+    ip: 192.168.90.141
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.142
+    ip: 192.168.90.142
+    ports: []
+  - host: 192.168.90.143
+    ip: 192.168.90.143
+    ports: []
+  - host: 192.168.90.146
+    ip: 192.168.90.146
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.147
+    ip: 192.168.90.147
+    ports:
+    - port: 9900
+      service: iua
+      state: open
+  - host: 192.168.90.152
+    ip: 192.168.90.152
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.162
+    ip: 192.168.90.162
+    ports: []
+  - host: 192.168.90.163
+    ip: 192.168.90.163
+    ports:
+    - port: 7000
+      service: afs3-fileserver
+      state: open
+  - host: 192.168.90.166
+    ip: 192.168.90.166
+    ports:
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.168
+    ip: 192.168.90.168
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+    - port: 8090
+      service: opsmessaging
+      state: open
+    - port: 9001
+      service: tor-orport
+      state: open
+  - host: 192.168.90.169
+    ip: 192.168.90.169
+    ports: []
+  - host: 192.168.90.174
+    ip: 192.168.90.174
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 2968
+      service: enpp
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.177
+    ip: 192.168.90.177
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.178
+    ip: 192.168.90.178
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 8899
+      service: ospf-lite
+      state: open
+  - host: 192.168.90.182
+    ip: 192.168.90.182
+    ports: []
+  - host: 192.168.90.183
+    ip: 192.168.90.183
+    ports: []
+  - host: 192.168.90.185
+    ip: 192.168.90.185
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.188
+    ip: 192.168.90.188
+    ports: []
+  - host: 192.168.90.193
+    ip: 192.168.90.193
+    ports: []
+  - host: 192.168.90.195
+    ip: 192.168.90.195
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.197
+    ip: 192.168.90.197
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5357
+      service: wsdapi
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+    - port: 8181
+      service: intermapper
+      state: open
+  - host: 192.168.90.200
+    ip: 192.168.90.200
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 161
+      service: snmp
+      state: open
+  - host: 192.168.90.202
+    ip: 192.168.90.202
+    ports: []
+  - host: 192.168.90.205
+    ip: 192.168.90.205
+    ports: []
+  - host: 192.168.90.206
+    ip: 192.168.90.206
+    ports: []
+  - host: 192.168.90.207
+    ip: 192.168.90.207
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.213
+    ip: 192.168.90.213
+    ports: []
+  - host: 192.168.90.217
+    ip: 192.168.90.217
+    ports: []
+  - host: 192.168.90.218
+    ip: 192.168.90.218
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.220
+    ip: 192.168.90.220
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 161
+      service: snmp
+      state: open
+  - host: 192.168.90.223
+    ip: 192.168.90.223
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.224
+    ip: 192.168.90.224
+    ports:
+    - port: 6100
+      service: synchronet-db
+      state: open
+  - host: 192.168.90.229
+    ip: 192.168.90.229
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.230
+    ip: 192.168.90.230
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.231
+    ip: 192.168.90.231
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.232
+    ip: 192.168.90.232
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.234
+    ip: 192.168.90.234
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.237
+    ip: 192.168.90.237
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 515
+      service: printer
+      state: open
+    - port: 631
+      service: ipp
+      state: open
+    - port: 8080
+      service: http-proxy
+      state: open
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.90.238
+    ip: 192.168.90.238
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+    - port: 8181
+      service: intermapper
+      state: open
+  - host: 192.168.90.239
+    ip: 192.168.90.239
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 2968
+      service: enpp
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.243
+    ip: 192.168.90.243
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 161
+      service: snmp
+      state: open
+  - host: 192.168.90.245
+    ip: 192.168.90.245
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.90.247
+    ip: 192.168.90.247
+    ports: []
+  - host: 192.168.90.248
+    ip: 192.168.90.248
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 23
+      service: telnet
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.90.251
+    ip: 192.168.90.251
+    ports: []
+  - host: 192.168.91.0
+    ip: 192.168.91.0
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.5
+    ip: 192.168.91.5
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.7
+    ip: 192.168.91.7
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.11
+    ip: 192.168.91.11
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.14
+    ip: 192.168.91.14
+    ports:
+    - port: 8200
+      service: trivnet1
+      state: open
+  - host: 192.168.91.17
+    ip: 192.168.91.17
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.23
+    ip: 192.168.91.23
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+  - host: 192.168.91.24
+    ip: 192.168.91.24
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.28
+    ip: 192.168.91.28
+    ports:
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.29
+    ip: 192.168.91.29
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8899
+      service: ospf-lite
+      state: open
+  - host: 192.168.91.31
+    ip: 192.168.91.31
+    ports: []
+  - host: 192.168.91.32
+    ip: 192.168.91.32
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 2968
+      service: enpp
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.34
+    ip: 192.168.91.34
+    ports: []
+  - host: 192.168.91.36
+    ip: 192.168.91.36
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.40
+    ip: 192.168.91.40
+    ports: []
+  - host: 192.168.91.45
+    ip: 192.168.91.45
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 2968
+      service: enpp
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.47
+    ip: 192.168.91.47
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.55
+    ip: 192.168.91.55
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.56
+    ip: 192.168.91.56
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 161
+      service: snmp
+      state: open
+  - host: 192.168.91.65
+    ip: 192.168.91.65
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.66
+    ip: 192.168.91.66
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.69
+    ip: 192.168.91.69
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 515
+      service: printer
+      state: open
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.91.70
+    ip: 192.168.91.70
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.73
+    ip: 192.168.91.73
+    ports:
+    - port: 49152
+      service: unknown
+      state: open
+    - port: 62078
+      service: iphone-sync
+      state: open
+  - host: 192.168.91.78
+    ip: 192.168.91.78
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.83
+    ip: 192.168.91.83
+    ports: []
+  - host: 192.168.91.85
+    ip: 192.168.91.85
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.87
+    ip: 192.168.91.87
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.90
+    ip: 192.168.91.90
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.91
+    ip: 192.168.91.91
+    ports: []
+  - host: 192.168.91.94
+    ip: 192.168.91.94
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 808
+      service: ccproxy-http
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.96
+    ip: 192.168.91.96
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.100
+    ip: 192.168.91.100
+    ports: []
+  - host: 192.168.91.105
+    ip: 192.168.91.105
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.91.107
+    ip: 192.168.91.107
+    ports: []
+  - host: 192.168.91.108
+    ip: 192.168.91.108
+    ports:
+    - port: 8080
+      service: http-proxy
+      state: open
+  - host: 192.168.91.110
+    ip: 192.168.91.110
+    ports:
+    - port: 7
+      service: echo
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.117
+    ip: 192.168.91.117
+    ports: []
+  - host: 192.168.91.124
+    ip: 192.168.91.124
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.125
+    ip: 192.168.91.125
+    ports: []
+  - host: 192.168.91.127
+    ip: 192.168.91.127
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.136
+    ip: 192.168.91.136
+    ports:
+    - port: 49152
+      service: unknown
+      state: open
+    - port: 62078
+      service: iphone-sync
+      state: open
+  - host: 192.168.91.137
+    ip: 192.168.91.137
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 25
+      service: smtp
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 110
+      service: pop3
+      state: open
+    - port: 143
+      service: imap
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 993
+      service: imaps
+      state: open
+    - port: 995
+      service: pop3s
+      state: open
+    - port: 1720
+      service: h323q931
+      state: open
+    - port: 3306
+      service: mysql
+      state: open
+    - port: 8088
+      service: radan-http
+      state: open
+    - port: 8089
+      service: unknown
+      state: open
+  - host: 192.168.91.139
+    ip: 192.168.91.139
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+  - host: 192.168.91.141
+    ip: 192.168.91.141
+    ports: []
+  - host: 192.168.91.142
+    ip: 192.168.91.142
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.144
+    ip: 192.168.91.144
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.149
+    ip: 192.168.91.149
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.150
+    ip: 192.168.91.150
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5060
+      service: sip
+      state: open
+    - port: 5061
+      service: sip-tls
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.151
+    ip: 192.168.91.151
+    ports: []
+  - host: 192.168.91.154
+    ip: 192.168.91.154
+    ports: []
+  - host: 192.168.91.156
+    ip: 192.168.91.156
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 3389
+      service: ms-wbt-server
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.166
+    ip: 192.168.91.166
+    ports:
+    - port: 9080
+      service: glrpc
+      state: open
+  - host: 192.168.91.170
+    ip: 192.168.91.170
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.177
+    ip: 192.168.91.177
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 161
+      service: snmp
+      state: open
+  - host: 192.168.91.187
+    ip: 192.168.91.187
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.196
+    ip: 192.168.91.196
+    ports: []
+  - host: 192.168.91.198
+    ip: 192.168.91.198
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.201
+    ip: 192.168.91.201
+    ports:
+    - port: 1801
+      service: msmq
+      state: open
+    - port: 2103
+      service: zephyr-clt
+      state: open
+    - port: 2105
+      service: eklogin
+      state: open
+    - port: 2107
+      service: msmq-mgmt
+      state: open
+    - port: 3389
+      service: ms-wbt-server
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.203
+    ip: 192.168.91.203
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 3000
+      service: ppp
+      state: open
+    - port: 3306
+      service: mysql
+      state: open
+  - host: 192.168.91.204
+    ip: 192.168.91.204
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.91.205
+    ip: 192.168.91.205
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.206
+    ip: 192.168.91.206
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.91.207
+    ip: 192.168.91.207
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.91.208
+    ip: 192.168.91.208
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.91.209
+    ip: 192.168.91.209
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.91.210
+    ip: 192.168.91.210
+    ports:
+    - port: 135
+      service: msrpc
+      state: open
+    - port: 139
+      service: netbios-ssn
+      state: open
+    - port: 445
+      service: microsoft-ds
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+  - host: 192.168.91.215
+    ip: 192.168.91.215
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.216
+    ip: 192.168.91.216
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.217
+    ip: 192.168.91.217
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.218
+    ip: 192.168.91.218
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.219
+    ip: 192.168.91.219
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.220
+    ip: 192.168.91.220
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.223
+    ip: 192.168.91.223
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.224
+    ip: 192.168.91.224
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.225
+    ip: 192.168.91.225
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.226
+    ip: 192.168.91.226
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.227
+    ip: 192.168.91.227
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+  - host: 192.168.91.231
+    ip: 192.168.91.231
+    ports:
+    - port: 21
+      service: ftp
+      state: open
+    - port: 23
+      service: telnet
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 515
+      service: printer
+      state: open
+    - port: 631
+      service: ipp
+      state: open
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.91.232
+    ip: 192.168.91.232
+    ports:
+    - port: 21
+      service: ftp
+      state: open
+    - port: 23
+      service: telnet
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 515
+      service: printer
+      state: open
+    - port: 631
+      service: ipp
+      state: open
+    - port: 9100
+      service: jetdirect
+      state: open
+  - host: 192.168.91.252
+    ip: 192.168.91.252
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 5900
+      service: vnc
+      state: open
+  - host: 192.168.91.253
+    ip: 192.168.91.253
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 443
+      service: https
+      state: open
+    - port: 2022
+      service: down
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: 192.168.91.254
+    ip: 192.168.91.254
+    ports:
+    - port: 80
+      service: http
+      state: open
+    - port: 554
+      service: rtsp
+      state: open
+    - port: 8000
+      service: http-alt
+      state: open
+  - host: ansible (192.168.91.251)
+    ip: ansible (192.168.91.251)
+    ports:
+    - port: 22
+      service: ssh
+      state: open
+    - port: 80
+      service: http
+      state: open
+    - port: 5222
+      service: xmpp-client
+      state: open
+    - port: 5269
+      service: xmpp-server
+      state: open
+    - port: 7070
+      service: realserver
+      state: open
+    - port: 7443
+      service: oracleas-https
+      state: open
+    - port: 7777
+      service: cbt
+      state: open
+    - port: 9090
+      service: zeus-admin
+      state: open
+    - port: 9091
+      service: xmltec-xmlmail
+      state: open
